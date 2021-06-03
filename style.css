@@ -1,23 +1,36 @@
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
-.title{
-    display: flex;
-    justify-content: center;
+.header {
+  border-style: solid;
+  border-width: 0 0 1px 0;
 }
-.wrapper{
-    display: flex;
-    width: 100%;
+.title {
+  display: flex;
+  justify-content: center;
 }
-.rightbar{
-    width: 25%;
+.wrapper {
+  display: flex;
+  width: 100%;
 }
-.leftbar{
-    width: 25%;
+.rightbar {
+  width: 15%;
 }
-.main{
-    width: 50%;
+.leftbar {
+  width: 15%;
+}
+.main {
+  width: 70%;
+  padding: 20px;
+  border-style: solid;
+  border-width: 0 1px;
+}
+.name {
+  margin: 0;
+}
+.type {
+  padding: 0;
 }
